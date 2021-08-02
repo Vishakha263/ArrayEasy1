@@ -1,5 +1,4 @@
-# ArrayEasy1
-GFG Problem
+# ArrayEasy1 (GFG Problem)
 
 Given an array of length N consisting of only 0s and 1s in random order. Modify the array to segregate 0s on left side and 1s on the right side of the array.
 
@@ -32,7 +31,7 @@ Constraints:
 0 ≤ arri ≤ 1
 
 
-#Solution
+# Solution
 class Solution:
     def segregate0and1(self, arr, n):
         # code here
@@ -40,7 +39,7 @@ class Solution:
         return(arr)
 
 #{ 
-#  Driver Code Starts
+#Driver Code Starts
 #Initial Template for Python 3
 
 if __name__ == '__main__':
