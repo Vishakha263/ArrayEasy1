@@ -30,3 +30,27 @@ Expected Auxiliary Space: O(1)
 Constraints:
 1 ≤ N ≤ 107
 0 ≤ arri ≤ 1
+
+
+#Solution
+class Solution:
+    def segregate0and1(self, arr, n):
+        # code here
+        arr.sort()
+        return(arr)
+
+#{ 
+#  Driver Code Starts
+#Initial Template for Python 3
+
+if __name__ == '__main__':
+    tc = int(input())
+    while tc > 0:
+        n = int(input())
+        arr = list(map(int, input().strip().split()))
+        ob = Solution()
+        ob.segregate0and1(arr, n)
+        print(*arr)
+        tc -= 1
+
+# } 
